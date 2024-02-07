@@ -8,7 +8,7 @@ const PORT=4000
 const app = express()
 app.use(cors())
 app.use(express.json())
-const MONGO_URL = 'mongodb://127.0.0.1:27017';
+const MONGO_URL = 'mongodb://127.0.0.1:27017/mern-intern';
 let db;
 
 
